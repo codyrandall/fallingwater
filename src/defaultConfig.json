@@ -1,0 +1,18 @@
+{
+  "test": {
+    "reverseDeps": true,
+    "deps": false,
+    "required": true
+  },
+  "build": {
+    "reverseDeps": false,
+    "deps": false,
+    "required": true
+  },
+  "lint": {
+    "deps": false,
+    "reverseDeps": false,
+    "required": true
+  },
+  "base": "node"
+}

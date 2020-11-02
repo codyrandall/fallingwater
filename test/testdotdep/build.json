@@ -1,0 +1,6 @@
+{
+  "build": "testbuild.js",
+  "test": "",
+  "lint": "",
+  "deps": ["./test/testall"]
+}

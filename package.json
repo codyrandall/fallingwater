@@ -1,0 +1,20 @@
+{
+  "name": "fallingwater",
+  "version": "1.0.0",
+  "description": "A micro library for creating micro front-ends inside a monorepo.",
+  "main": "index.js",
+  "repository": "https://github.com/codyrandall/fallingwater",
+  "author": "codyrandall",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "glob": "^7.1.6",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

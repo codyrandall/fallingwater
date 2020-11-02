@@ -1,0 +1,6 @@
+{
+  "build": "testbuild.js",
+  "test": "jest",
+  "lint": "yarn lint",
+  "deps": []
+}

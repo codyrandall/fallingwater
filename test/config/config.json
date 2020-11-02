@@ -1,0 +1,7 @@
+{
+  "test": {
+    "required": false,
+    "test": "this please"
+  },
+  "base": "node"
+}
