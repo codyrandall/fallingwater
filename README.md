@@ -1,13 +1,6 @@
+# Fallingwater
+
 ![Fallingwater Icon](icon.png "Falling Water")
-
-- [Installation](#installation)
-- [Usage](#usage)
-    * [Config](#config)
-    * [Command](#command)
-    * [Build File](#build-file)
-    * [Flags](#flags)
-
-## Fallingwater
 
 Fallingwater is a small library intended to quickly enable developers to test and build 
 packages, microfrontends and small bits of javascript with ease.
@@ -15,6 +8,13 @@ packages, microfrontends and small bits of javascript with ease.
 Fallingwater works by defining a strict life cycle for each package inside your respository. 
 Fallingwater builds a dependency tree and keeps your builds green by running tests and linters each time one of the packages
 a dependency depends on changes.
+
+- [Installation](#installation)
+- [Usage](#usage)
+    * [Config](#config)
+    * [Command](#command)
+    * [Build File](#build-file)
+    * [Flags](#flags)
 
 ### Example
 You have defined three packages defined in your repository with fallingwater, Foo, Bar and Baz. 
